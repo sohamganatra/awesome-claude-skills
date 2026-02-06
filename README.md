@@ -86,6 +86,7 @@ If you receive the email, Claude is now connected to 500+ apps.
   - [Productivity & Organization](#productivity--organization)
   - [Collaboration & Project Management](#collaboration--project-management)
   - [Security & Systems](#security--systems)
+  - [SaaS App Automation (via Rube MCP)](#saas-app-automation-via-rube-mcp)
 - [Getting Started](#getting-started)
 - [Creating Skills](#creating-skills)
 - [Contributing](#contributing)
@@ -193,6 +194,64 @@ Claude Skills are customizable workflows that teach Claude how to perform specif
 - [file-deletion](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/file-deletion) - Secure file deletion and data sanitization methods.
 - [metadata-extraction](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/metadata-extraction) - Extract and analyze file metadata for forensic purposes.
 - [threat-hunting-with-sigma-rules](https://github.com/jthack/threat-hunting-with-sigma-rules-skill) - Use Sigma detection rules to hunt for threats and analyze security events.
+
+### SaaS App Automation (via Rube MCP)
+
+78 automation skills for SaaS apps powered by [Rube MCP](https://rube.app/mcp) (Composio). Each skill covers workflow patterns, tool sequences, common pitfalls, and parameter guidance. Install all with `npx skills add ComposioHQ/awesome-claude-skills --all`. Source: [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills).
+
+- [salesforce](https://github.com/ComposioHQ/awesome-claude-skills) - CRM automation for Salesforce: leads, contacts, opportunities, and pipeline management.
+- [hubspot](https://github.com/ComposioHQ/awesome-claude-skills) - HubSpot CRM workflows for contacts, deals, and marketing automation.
+- [pipedrive](https://github.com/ComposioHQ/awesome-claude-skills) - Pipedrive CRM skill for deal tracking and sales pipeline automation.
+- [zoho-crm](https://github.com/ComposioHQ/awesome-claude-skills) - Zoho CRM integration for leads, contacts, and deal management.
+- [close](https://github.com/ComposioHQ/awesome-claude-skills) - Close CRM automation for sales communication and pipeline workflows.
+- [jira](https://github.com/ComposioHQ/awesome-claude-skills) - Jira project management: issues, sprints, boards, and workflow automation.
+- [asana](https://github.com/ComposioHQ/awesome-claude-skills) - Asana task and project management automation.
+- [trello](https://github.com/ComposioHQ/awesome-claude-skills) - Trello board, list, and card management automation.
+- [clickup](https://github.com/ComposioHQ/awesome-claude-skills) - ClickUp workspace, task, and project automation.
+- [monday](https://github.com/ComposioHQ/awesome-claude-skills) - Monday.com board and item management workflows.
+- [linear](https://github.com/ComposioHQ/awesome-claude-skills) - Linear issue tracking and project cycle automation.
+- [slack](https://github.com/ComposioHQ/awesome-claude-skills) - Slack messaging, channels, and workspace automation.
+- [discord](https://github.com/ComposioHQ/awesome-claude-skills) - Discord server, channel, and messaging automation.
+- [microsoft-teams](https://github.com/ComposioHQ/awesome-claude-skills) - Microsoft Teams messaging and channel management.
+- [gmail](https://github.com/ComposioHQ/awesome-claude-skills) - Gmail email automation: send, search, label, and organize.
+- [outlook](https://github.com/ComposioHQ/awesome-claude-skills) - Outlook email and calendar integration workflows.
+- [sendgrid](https://github.com/ComposioHQ/awesome-claude-skills) - SendGrid transactional and marketing email automation.
+- [mailchimp](https://github.com/ComposioHQ/awesome-claude-skills) - Mailchimp audience, campaign, and email marketing automation.
+- [github](https://github.com/ComposioHQ/awesome-claude-skills) - GitHub repos, issues, PRs, and Actions automation.
+- [gitlab](https://github.com/ComposioHQ/awesome-claude-skills) - GitLab project, merge request, and CI/CD automation.
+- [vercel](https://github.com/ComposioHQ/awesome-claude-skills) - Vercel deployment and project management automation.
+- [sentry](https://github.com/ComposioHQ/awesome-claude-skills) - Sentry error tracking and issue management workflows.
+- [datadog](https://github.com/ComposioHQ/awesome-claude-skills) - Datadog monitoring, dashboards, and alerting automation.
+- [pagerduty](https://github.com/ComposioHQ/awesome-claude-skills) - PagerDuty incident management and on-call automation.
+- [google-drive](https://github.com/ComposioHQ/awesome-claude-skills) - Google Drive file management and sharing automation.
+- [dropbox](https://github.com/ComposioHQ/awesome-claude-skills) - Dropbox file storage and sharing workflows.
+- [notion](https://github.com/ComposioHQ/awesome-claude-skills) - Notion pages, databases, and workspace automation.
+- [confluence](https://github.com/ComposioHQ/awesome-claude-skills) - Confluence wiki page and space management automation.
+- [airtable](https://github.com/ComposioHQ/awesome-claude-skills) - Airtable base, table, and record automation.
+- [googlesheets](https://github.com/ComposioHQ/awesome-claude-skills) - Google Sheets spreadsheet reading, writing, and formula automation.
+- [google-calendar](https://github.com/ComposioHQ/awesome-claude-skills) - Google Calendar event and scheduling automation.
+- [calendly](https://github.com/ComposioHQ/awesome-claude-skills) - Calendly scheduling and event type management.
+- [linkedin](https://github.com/ComposioHQ/awesome-claude-skills) - LinkedIn posting and professional networking automation.
+- [twitter](https://github.com/ComposioHQ/awesome-claude-skills) - Twitter/X posting, search, and engagement automation.
+- [reddit](https://github.com/ComposioHQ/awesome-claude-skills) - Reddit posting, commenting, and subreddit automation.
+- [instagram](https://github.com/ComposioHQ/awesome-claude-skills) - Instagram content and engagement automation.
+- [youtube](https://github.com/ComposioHQ/awesome-claude-skills) - YouTube channel and video management automation.
+- [zendesk](https://github.com/ComposioHQ/awesome-claude-skills) - Zendesk ticket, user, and support workflow automation.
+- [freshdesk](https://github.com/ComposioHQ/awesome-claude-skills) - Freshdesk helpdesk ticket and contact automation.
+- [intercom](https://github.com/ComposioHQ/awesome-claude-skills) - Intercom conversations, contacts, and messaging automation.
+- [shopify](https://github.com/ComposioHQ/awesome-claude-skills) - Shopify store, product, and order management automation.
+- [stripe](https://github.com/ComposioHQ/awesome-claude-skills) - Stripe payments, subscriptions, and customer management automation.
+- [figma](https://github.com/ComposioHQ/awesome-claude-skills) - Figma design file and component automation.
+- [canva](https://github.com/ComposioHQ/awesome-claude-skills) - Canva design creation and template automation.
+- [miro](https://github.com/ComposioHQ/awesome-claude-skills) - Miro whiteboard and collaboration automation.
+- [google-analytics](https://github.com/ComposioHQ/awesome-claude-skills) - Google Analytics reporting and data retrieval automation.
+- [mixpanel](https://github.com/ComposioHQ/awesome-claude-skills) - Mixpanel analytics event tracking and reporting automation.
+- [amplitude](https://github.com/ComposioHQ/awesome-claude-skills) - Amplitude product analytics and user behavior automation.
+- [segment](https://github.com/ComposioHQ/awesome-claude-skills) - Segment customer data platform integration and event routing.
+- [supabase](https://github.com/ComposioHQ/awesome-claude-skills) - Supabase database, auth, and storage automation.
+- [webflow](https://github.com/ComposioHQ/awesome-claude-skills) - Webflow site, CMS, and publishing automation.
+- [todoist](https://github.com/ComposioHQ/awesome-claude-skills) - Todoist task management and productivity automation.
+- [docusign](https://github.com/ComposioHQ/awesome-claude-skills) - DocuSign envelope and e-signature workflow automation.
 
 ## Getting Started
 
