@@ -18,7 +18,7 @@ Automate WhatsApp Business operations through Composio's WhatsApp toolkit via Ru
 
 ## Setup
 
-**Get Rube MCP**: Go to [rube.app/mcp](https://rube.app/mcp) to get your MCP endpoint. Add it to your MCP client configuration and it just works — no API keys needed.
+**Get Rube MCP**: Add `https://rube.app/mcp` as an MCP server in your client configuration. No API keys needed — just add the endpoint and it works.
 
 
 1. Verify Rube MCP is available by confirming `RUBE_SEARCH_TOOLS` responds
