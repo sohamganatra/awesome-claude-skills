@@ -18,6 +18,9 @@ Automate Calendly operations including event listing, invitee management, schedu
 
 ## Setup
 
+**Get Rube MCP**: Go to [rube.app/mcp](https://rube.app/mcp) to get your MCP endpoint. Add it to your MCP client configuration and it just works — no API keys needed.
+
+
 1. Verify Rube MCP is available by confirming `RUBE_SEARCH_TOOLS` responds
 2. Call `RUBE_MANAGE_CONNECTIONS` with toolkit `calendly`
 3. If connection is not ACTIVE, follow the returned auth link to complete Calendly OAuth
